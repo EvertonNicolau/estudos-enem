@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano de Estudos ENEM 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📚 Plano de Estudos ENEM 2026</h1>
+            <button id="themeToggle" class="theme-btn" aria-label="Alternar tema">
+                <span class="theme-icon">🌙</span>
+                <span class="theme-text">Modo Escuro</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Legenda -->
+        <section class="legend">
+            <h2>Legenda</h2>
+            <div class="legend-items">
+                <span class="legend-item"><span class="status-icon">⬜</span> Não iniciado</span>
+                <span class="legend-item"><span class="status-icon">🟨</span> Em andamento</span>
+                <span class="legend-item"><span class="status-icon">✅</span> Concluído</span>
+            </div>
+        </section>
+
+        <!-- Cronograma será inserido via JavaScript -->
+        <div id="schedule"></div>
+
+        <!-- Metas Finais -->
+        <section class="goals">
+            <h2>🎯 Metas Finais</h2>
+            <div id="finalGoals"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>💪 Bons estudos! Foco total no plano!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
