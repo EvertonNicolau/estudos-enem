@@ -372,4 +372,22 @@ footer p {
         padding: 0.4rem 0.8rem;
     }
 }
+/* Estilo para o crédito no rodapé */
+.credits {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    opacity: 0.8;
+    font-style: italic;
+    letter-spacing: 0.3px;
+}
 
+[data-theme="dark"] .credits {
+    color: #94a3b8;
+}
+
+.credits:hover {
+    opacity: 1;
+    color: var(--accent-color);
+    transition: all 0.3s ease;
+}
